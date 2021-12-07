@@ -1,0 +1,50 @@
+:root{
+    --primary-color:#374151;
+}
+
+body{
+    margin:0;
+}
+
+*{
+    box-sizing: border-box;
+}
+.nav-bar{
+    width:100%;
+    background-color: var(--primary-color);
+    height:10vh;
+    margin:auto;
+    text-align: center;
+    font-style: bold;
+    color:white;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.main-container{
+    width: 1000px;
+    border:1px solid black;
+    height: 70vh;
+    margin: auto;
+    font-weight: bold;
+}
+.contents-container{
+    margin: auto;
+    height:50vh;
+    width: 100%;
+    border: 1px solid red;
+}
+.title{
+    
+    position: relative;
+    left: 250px;
+    top: 50px;
+    width: 100px;
+}
+#input-area{
+    width:70%;
+    height:5vh;
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
