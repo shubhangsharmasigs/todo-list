@@ -30,21 +30,51 @@ body{
 }
 .contents-container{
     margin: auto;
-    height:50vh;
+    height:45vh;
     width: 100%;
     border: 1px solid red;
 }
 .title{
+    margin: 50px 0px 0px 100px;
     
-    position: relative;
-    left: 250px;
-    top: 50px;
     width: 100px;
 }
 #input-area{
     width:70%;
     height:5vh;
-    position: relative;
-    left: 250px;
-    top: 50px;
+    margin: 10px 0px 0px 100px;
+}
+
+p{
+    margin: 5px 0px 0px 100px;
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+.description{
+    margin: 20px 0px 0px 100px;
+}
+
+.description-box{
+    margin: 10px 0px 0px 100px;
+    width: 70%;
+    height: 15vh;
+}
+
+button{
+    margin: 6px 0px 0px 100px;
+    display: block;
+    background-color:#78716c;
+}
+
+.items{
+    margin: 6px 0px 0px 100px;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.table{
+    border: 1px solid black;
+    margin: 6px 0px 0px 100px;
+    width:70%
 }
