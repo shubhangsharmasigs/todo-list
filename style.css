@@ -39,7 +39,7 @@ body{
     
     width: 100px;
 }
-#input-area{
+#input-area-title{
     width:70%;
     height:5vh;
     margin: 10px 0px 0px 100px;
@@ -55,16 +55,16 @@ p{
     margin: 20px 0px 0px 100px;
 }
 
-.description-box{
+#description-box{
     margin: 10px 0px 0px 100px;
     width: 70%;
     height: 15vh;
 }
 
-button{
+#add-to-list{
     margin: 6px 0px 0px 100px;
     display: block;
-    background-color:#78716c;
+    /* background-color:#78716c; */
 }
 
 .items{
@@ -76,5 +76,5 @@ button{
 .table{
     border: 1px solid black;
     margin: 6px 0px 0px 100px;
-    width:70%
+    width:70%;
 }
